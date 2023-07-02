@@ -38,6 +38,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 The first step is to create our Resource Group and our VMs (DC-1 and Client-1). Once I have created the Domain Controller I take the following steps:
+    
     - Set DC NIC Private IP address to be static
 We then create the Client VM on a Windows 10 (Client-1) using the same Resource Group I created for the Domain Controller.
     - Ensure connectivity between Client-1 and DC-1 are the same
