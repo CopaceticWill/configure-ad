@@ -37,6 +37,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
  ![image](https://github.com/CopaceticWill/configure-ad/assets/137100082/3dfb0b5b-74a9-48c4-88e6-460a52d07527)
 
+![image](https://github.com/CopaceticWill/configure-ad/assets/137100082/9e377281-3a2e-4d0e-b030-47ad06f15a23)
+
 </p>
 <p>
     
@@ -52,7 +54,8 @@ My first step is to create a Resource Group and VMs (DC-1 and Client-1). Once I 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/CopaceticWill/configure-ad/assets/137100082/43de14d6-76c0-4903-b365-543250e6d3fc)
 </p>
 <p>
 In this step, I install Active Directory within our DC-1.  I take a few steps to complete this action as follows:
@@ -66,7 +69,8 @@ In this step, I install Active Directory within our DC-1.  I take a few steps to
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+![image](https://github.com/CopaceticWill/configure-ad/assets/137100082/a06f31b9-cd29-46ff-971b-04f1852bf779)
 </p>
 <p>
 For the final steps, I will join Client-1 in the domain I created and set up a remote desktop for non-administrative users on Client-1. Here are the steps I took to complete this action
