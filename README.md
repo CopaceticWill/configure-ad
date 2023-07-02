@@ -34,15 +34,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ ![image](https://github.com/CopaceticWill/configure-ad/assets/137100082/3dfb0b5b-74a9-48c4-88e6-460a52d07527)
+
 </p>
 <p>
     
-My first step is to create a Resource Group and VMs (DC-1 and Client-1). Once I have created the Domain Controller I take the following steps:
+My first step is to create a Resource Group and VMs (DC-1 and Client-1). Once I have created the Domain Controller VM I take the following steps:
    
 - Set DC-1 NIC Private IP address to static
 - I create the Client-1 VM on a Windows 10 using the same Resource Group created for the Domain Controller(DC-1).
-- Confirm connectivity between Client-1 and DC-1 are the same
+- Confirm connectivity between Client-1 and DC-1
   - Using Remote Desktop on Client-1 and ping with perpetual ping
   - Login to DC-1: enable ICMPv4 on the local Windows Firewall (view ping success on Client-1 perpetual ping)
 
